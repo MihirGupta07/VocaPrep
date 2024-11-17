@@ -55,10 +55,10 @@ const CardScreen = () => {
       <div className={s.adContainer}>
         <ins
           className="adsbygoogle"
-          style={{ display: "block", textAlign: "center" }}
-          data-ad-client="ca-pub-4844222444986533" // Replace with your AdSense publisher ID
-          data-ad-slot="XXXXXXXXXX" // Replace with your AdSense ad slot ID
+          data-ad-client="ca-pub-4844222444986533"
+          data-ad-slot="5650454567"
           data-ad-format="auto"
+          data-full-width-responsive="true"
         ></ins>
       </div>
     </div>
