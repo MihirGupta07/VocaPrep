@@ -1,20 +1,22 @@
-
-import './App.css';
-import CardScreen from './screens/CardScreen';
+import "./App.css";
+import CardScreen from "./screens/CardScreen";
 
 function App() {
   return (
-    <div className="App" style={{
-      height: '100vh',
-      width: '100vw',
-      position: 'absolute',
-      left: 0,
-      display: 'flex',
-      flexDirection: "column",
-      alignItems: 'center',
-      justifyContent: 'center'
-    }}>
-
+    <div
+      className="App"
+      style={{
+        height: "100%",
+        width: "100%",
+        position: "absolute",
+        left: 0,
+        top: 0,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <CardScreen />
     </div>
   );
